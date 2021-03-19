@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Multiplayer Game</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+    <script>
+      //Your web app's Firebase configuration
+      
+      var firebaseConfig = {
+    apiKey: "AIzaSyAP_1airi_aMPOPYt7XxpoHUTYqPBzXbS8",
+    authDomain: "ultimate-car-game.firebaseapp.com",
+    databaseURL: "https://ultimate-car-game-default-rtdb.firebaseio.com",
+    projectId: "ultimate-car-game",
+    storageBucket: "ultimate-car-game.appspot.com",
+    messagingSenderId: "801370321499",
+    appId: "1:801370321499:web:f582115a4fcff4a04f857e"
+  };
+
+      
+      // // Initialize Firebase
+      // firebase.initializeApp(firebaseConfig);
+
+      var firebaseConfig = {
+    apiKey: "AIzaSyBrFgr7EFcetM1w4GRZR-4l-YHaMOag23I",
+    authDomain: "the-end-419ab.firebaseapp.com",
+    databaseURL: "https://the-end-419ab-default-rtdb.firebaseio.com",
+    projectId: "the-end-419ab",
+    storageBucket: "the-end-419ab.appspot.com",
+    messagingSenderId: "557662348276",
+    appId: "1:557662348276:web:74f2fd5ce2913a9af74fa1"
+  };
+  };
+
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <script src="js/Player.js"></script>
+    <script src="js/Form.js"></script>
+    <script src="js/Game.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
